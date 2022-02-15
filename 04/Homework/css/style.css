@@ -58,6 +58,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #3f2aff;
+  /* Задать фоновую иконку для скачивания */
   background-image: url();
 }
 
@@ -73,12 +74,31 @@ body {
 /* Стили главного заголовка */
 .main-header {
   margin: 0 0 40px 0;
+  font-weight: 400;
+  font-style: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 /* Стили параграфов */
 .text {
   margin: 0 0 40px 0;
   width: 872px;
+  font-weight: 400;
+  font-style: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+/* Дополнительные стили для текста синего цвета */
+.blue-text {
+  border-radius: 20px;
+  padding: 50px 95px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3f2aff;
 }
 
 /* Стили серых блоков */
@@ -97,9 +117,17 @@ body {
   width: 692px;
 }
 
+/* Фоновое изображение для серых блоков */
+.grey-box-image {
+
+}
+
 /* Стили заголовков 2-го уровня */
 .second-level-heading {
   margin: 0 0 10px 0;
+  font-style: 40px;
+  line-height: 46px;
+  color: #333;
 }
 
 /* Стили заголовков 3-го уровня */
@@ -111,6 +139,11 @@ body {
 .list {
   margin: 0;
   padding: 0 0 0 15px;
+}
+
+/* Стили для маркеров списка */
+.list::marker {
+  
 }
 
 /* Стили для элементов списка */
