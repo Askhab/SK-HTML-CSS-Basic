@@ -194,3 +194,134 @@ body {
   font-size: 14px;
   text-align: center;
 }
+
+
+/* Стили для modules.html */
+/* Обёртка для всего контента */
+.container-modules {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 1170px;
+}
+
+/* Стили для лого платформы */
+.logo {
+  margin-bottom: 25px;
+}
+
+/* Ссылка на Главную страницу */
+.nav-home {
+  display: block;
+  margin: 0 0 25px 0;
+  padding: 0 0 0 50px;
+  font-size: 20px;
+  color: #3F2AFF;
+  background-image: url(../img/Arrow\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+/* Контейнер для основного контента */
+.modules {
+  margin: 0 0 50px 0;
+}
+
+/* Заголовок списка модулей */
+.modules-title {
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 69px;
+  color: #3F2AFF;
+}
+
+/* Список модулей */
+.modules-list {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Элемент списка */
+.modules-list-item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-width: 572px;
+  min-height: 505px;
+  box-shadow: 0px 0px 40px #0000001a;
+}
+
+/* Фоновое изображение для элемента списка */
+.module-list-item-image {
+  margin: 0 0 25px 0;
+}
+
+/* Контейнер описания элемента списка */
+.module-description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 522px;
+  max-height: 275px;
+}
+
+/* Заголовок элемента списка */
+.module-description-title {
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3F2AFF;
+}
+
+/* Текст элемента списка */
+.module-description-text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333;
+}
+
+/* Номер элемента списка */
+.modules-list-item-number {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: right;
+  color: #EAEAEA;
+}
+
+/* Подвал сайта */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Кнопка - Показать ещё */
+.btn-show-modules {
+  padding: 25px 75px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3F2AFF;
+  border: 2px solid #3F2AFF;
+}
